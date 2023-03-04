@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+
+Scanner sc = new Scanner(System.in);
+dobro n1 = new dobro();
+
+System.out.println("Digite o Número: ");
+n1.num1=sc.nextInt();
+n1.CalculaDobro();	
+}
+}
+}
